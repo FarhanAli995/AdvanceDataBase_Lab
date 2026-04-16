@@ -1,0 +1,34 @@
+USE college;
+DROP TABLE IF EXISTS students;
+CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    age INT NOT NULL,
+    marks FLOAT NOT NULL
+);
+INSERT INTO students VALUES(1, "FARHAN ALI", 21, 43);
+INSERT INTO students VALUES(2, "ALISHAN", 22, 54);
+INSERT INTO students VALUES(3, "DIYAN ZAFAR", 11, 65);
+INSERT INTO students VALUES(4, "ALI ZAIN", 31, 64);
+INSERT INTO students VALUES(5, "ALIYAN", 41, 45);
+SELECT * FROM students;
+-- SHOW DATABASES;
+
+DROP TABLE IF EXISTS stu_info;
+
+CREATE TABLE stu_info(
+roll INT PRIMARY KEY,
+NAMES VARCHAR(20)
+);
+
+INSERT INTO stu_info
+(roll, NAMES)
+VALUES
+(101,"ALY"),
+(102,"FARHAN"),
+(103,"DIYAN");
+
+SELECT * FROM stu_info;
+
+
+
