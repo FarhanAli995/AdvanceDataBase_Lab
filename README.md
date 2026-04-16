@@ -17,3 +17,16 @@ A structured repository for practicing advanced SQL concepts and database manage
 | **Tools** | XAMPP, MySQL, phpMyAdmin |
 | **Language** | SQL (MySQL dialect) |
 
+
+---
+
+## 🎯 Learning Objectives
+
+- ✅ Database design & normalization (1NF, 2NF, 3NF, BCNF)
+- ✅ Complex SQL queries (JOINs, subqueries, CTEs)
+- ✅ Stored procedures, functions, and triggers
+- ✅ Transaction management & ACID properties
+- ✅ Indexing and query optimization
+- ✅ Database security & access control
+
+
